@@ -10,25 +10,26 @@ namespace ConsoleApp16
     {
         public Horse()
         {
-
-        }
-        public Horse(string food, string location)
-        {
-            _food = food;
-            _location = location;
+            _food = "сеном";
+            _location = "ржание";
         }
 
         public override void MakeNoise()
         {
-            Console.WriteLine($"ржание");
+            Console.WriteLine($"издает звук: {_location}");
         }
         public override void Eat()
         {
-            Console.WriteLine($"сено");
+            Console.WriteLine($"петается: {_food}");
         }
         public override void Sleep()
         {
 
+        }
+        public override void GetInfo()
+        {
+            MakeNoise();
+            Eat();
         }
     }
 }

@@ -13,5 +13,6 @@ namespace ConsoleApp16
         public abstract void MakeNoise();
         public abstract void Eat();
         public abstract void Sleep();
+        public abstract void GetInfo();
     }
 }

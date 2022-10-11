@@ -11,7 +11,7 @@ namespace ConsoleApp16
 
         public void TreatAnimal(Animal animal)
         {
-            Console.WriteLine($" распечатанные данные: {animal}");
+            animal.GetInfo();
         }
     }
 }

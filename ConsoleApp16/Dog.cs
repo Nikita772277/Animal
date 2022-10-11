@@ -14,21 +14,26 @@ namespace ConsoleApp16
         }
         public Dog(string food,string location)
         {
-            _food = food;
-            _location = location;
+            _food = "кости";
+            _location = "лай";
         }
 
         public override void MakeNoise()
         {
-            Console.WriteLine($"гавкает");
+            Console.WriteLine($"издает звук: {_location}");
         }
         public override void Eat()
         {
-            Console.WriteLine($"кости");
+            Console.WriteLine($"петается: {_food}");
         }
         public override void Sleep()
         {
             
+        }
+        public override void GetInfo()
+        {
+            MakeNoise();
+            Eat();
         }
     }
 }
