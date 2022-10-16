@@ -10,10 +10,6 @@ namespace ConsoleApp16
     {
         public Cat()
         {
-
-        }
-        public Cat(string food, string location)
-        {
             _food="рыба";
             _location = "мяуканье";
         }

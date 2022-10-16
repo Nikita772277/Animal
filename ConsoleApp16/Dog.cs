@@ -10,10 +10,6 @@ namespace ConsoleApp16
     {
         public Dog()
         {
-
-        }
-        public Dog(string food,string location)
-        {
             _food = "кости";
             _location = "лай";
         }
